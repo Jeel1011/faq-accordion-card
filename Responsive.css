@@ -1,0 +1,53 @@
+@media (max-width: 990px) {
+    .faq-card {
+        background: none;
+        background-color: white;
+        width: 86.5%;
+        max-width: 500px;
+        border-radius: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .faq-card::before {
+        content: "";
+        background: url(./images/illustration-woman-online-mobile.svg) top 0 left 50% no-repeat;
+        width: 268px;
+        height: 180px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-55%, -55%);
+    }  
+    .faq-card::after {
+        content: "";
+        background: url(./images/bg-pattern-mobile.svg) no-repeat;
+        width: 268px;
+        height: 180px;
+        position: absolute;
+        top: 6.5rem;
+        left: 50%;
+        transform: translate(-45%, -53%);
+    }
+    /* faq-container start */
+    .faq-card__container {
+        width: 100%;
+        padding-block-start: 7.5rem;
+        padding-inline: 24px;
+    }
+    /* h1(faq-title) */
+    .faq-card__container .faq-card__title{
+        text-align: center;
+        padding-block-end: 38px;
+        font-size: 32px;
+        font-weight: 700;
+        color: #1E1F36;
+    }
+    /* faq question */
+    .faq-card__item .faq-card__question .faq-card__question-text{
+        font-size: 13px;
+    }
+}
+
+
